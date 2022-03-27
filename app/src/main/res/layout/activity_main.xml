@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/imgRollDice"
+        android:src="@drawable/empty_dice"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@+id/diceDesc"/>
+    <Space
+        android:layout_height="10dp"
+        android:layout_width="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnRoll"
+        android:text="@string/btnRoll"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Space
+        android:layout_height="25dp"
+        android:layout_width="wrap_content"/>
+
+    <TextView
+        android:id="@+id/txtRollDice"
+        android:text="@string/diceRoller"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtNumber"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autofillHints="name"
+        android:digits="1,2,3,4,5,6"
+        android:maxLength="1"
+        android:inputType="number"
+        android:labelFor="@+id/edtNumber"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</LinearLayout>

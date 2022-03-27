@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LuckChallenge</string>
+    <string name="diceRoller">Guess the dice number (1 to 6):</string>
+    <string name="btnRoll">Roll</string>
+    <string name="edtNumber">edtNumber</string>
+    <string name="diceDesc">Dices</string>
+</resources>
